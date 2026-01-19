@@ -31,23 +31,26 @@
 ## 2️⃣ Model Evaluation & Metrics
 
 ### Regression Metrics
-- [ ] MSE / RMSE
-- [ ] MAE
-- [ ] R² score
+- [☑️] MSE / RMSE
+- [☑️] MAE
+- [☑️] R² score
 
 ### Classification Metrics
-- [ ] Accuracy
-- [ ] Precision / Recall
-- [ ] F1-score
-- [ ] ROC-AUC
-- [ ] Confusion matrix interpretation
-- [ ] Threshold tuning
+- [☑️] Accuracy
+- [☑️] Precision / Recall
+- [☑️] F1-score
+- [☑️] ROC-AUC
+- [☑️] Confusion matrix interpretation
 
 ### Ranking Metrics
-- Precision@K
-- Recall@K
-- MAP
-- NDCG
+- [☑️] Precision@K
+- [☑️] Recall@K
+- [☑️] Average Precision
+- [☑️] MAP
+- [☑️] CG
+- [☑️] DCG
+- [☑️] NDCG
+- [☑️] MRR
 
 ## 3️⃣ Optimization & Training Dynamics
 
@@ -87,5 +90,5 @@
 ## 6️⃣ Classical ML Theory
 
 - [ ] Maximum Likelihood Estimation (MLE)
-- [ ] Maximum A Posteriori (MAE）
-- [ ] Backward vs Forward
+- [ ] Maximum A Posteriori（MAE）
+- [☑️] Backward vs Forward
