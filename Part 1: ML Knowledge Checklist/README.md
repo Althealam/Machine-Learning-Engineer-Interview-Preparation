@@ -12,12 +12,12 @@
 - [☑️] Mean Squared Error (MSE)
 - [☑️] Mean Absolute Error (MAE)
 - [☑️] Huber Loss
-- [❓] Relationship between loss functions and **noise assumptions**
+- [☑️] Relationship between loss functions and **noise assumptions**
 
 ### Classification
 - [☑️] Binary Cross-Entropy (Log Loss)
 - [☑️] Categorical Cross-Entropy (Softmax + CE)
-- [❓] Difference between **multiclass** and **multilabel** classification
+- [☑️] Difference between **multiclass** and **multilabel** classification
 - [☑️] Why **cross-entropy is preferred over MSE** for classification
 
 ### Ranking & Retrieval
