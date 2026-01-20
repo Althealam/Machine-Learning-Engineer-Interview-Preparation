@@ -54,17 +54,26 @@
 
 ## 3️⃣ Optimization & Training Dynamics
 
-- Gradient Descent (Batch / SGD / Mini-batch)
-- Momentum
-- AdaGrad, RMSProp, Adam
-- Learning rate schedules
+- [☑️] Gradient Descent (Batch / SGD / Mini-batch)
+- [☑️] Momentum
+- [☑️] AdaGrad
+- [☑️] RMSProp
+- [☑️] Adam
 - Vanishing and exploding gradients
 - Effect of **batch size** on optimization
-- Convergence vs generalization trade-offs
+- [☑️] Convergence vs generalization trade-offs
 
 ---
+## 4️⃣ Activation Function
+- [☑️] Sigmoid
+- [☑️] Tanh
+- [☑️] ReLU
+- [☑️] Leaky ReLU
+- [☑️] Softmax
+- [☑️] GELU
 
-## 4️⃣ Regularization & Generalization
+---
+## 5️⃣ Regularization & Generalization
 
 - [ ] Overfitting vs underfitting
 - [ ] Bias–Variance tradeoff
@@ -76,7 +85,7 @@
 
 ---
 
-## 5️⃣ Feature Engineering & Data Processing
+## 6️⃣ Feature Engineering & Data Processing
 
 - [ ] Feature scaling (standardization vs normalization)
 - [ ] Handling missing values
@@ -87,7 +96,7 @@
 
 ---
 
-## 6️⃣ Classical ML Theory
+## 7️⃣ Classical ML Theory
 
 - [ ] Maximum Likelihood Estimation (MLE)
 - [ ] Maximum A Posteriori（MAE）
