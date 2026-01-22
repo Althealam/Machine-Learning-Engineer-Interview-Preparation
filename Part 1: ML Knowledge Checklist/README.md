@@ -111,5 +111,5 @@
 - [☑️] CART
 - [☑️] GBDT
 - [☑️] XGBoost
-- [] LightGBM
-- [] CatBoost
+- [☑️] LightGBM
+- [☑️] CatBoost
