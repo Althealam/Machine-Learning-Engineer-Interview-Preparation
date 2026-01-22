@@ -101,3 +101,15 @@
 - [ ] Maximum Likelihood Estimation (MLE)
 - [ ] Maximum A Posteriori（MAE）
 - [☑️] Backward vs Forward
+
+-- 
+
+## 8️⃣ Tree Model
+
+- [☑️] Bagging
+- [☑️] Boosting
+- [☑️] CART
+- [☑️] GBDT
+- [☑️] XGBoost
+- [] LightGBM
+- [] CatBoost
