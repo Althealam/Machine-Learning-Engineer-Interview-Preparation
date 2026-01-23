@@ -75,36 +75,25 @@
 ---
 ## 5️⃣ Regularization & Generalization
 
-- [ ] Overfitting vs underfitting
-- [ ] Bias–Variance tradeoff
-- [ ] L1 vs L2 regularization
-- [ ] Elastic Net
-- [ ] Early stopping
-- [ ] Data augmentation
-- [ ] Dropout (conceptual understanding)
+- [☑️] Overfitting vs underfitting
+- [☑️] Bias–Variance tradeoff
+- [☑️] L1 vs L2 regularization
+- [☑️] Elastic Net
+- [☑️] Early stopping
+- [☑️] Data augmentation
+- [☑️] Dropout 
 
 ---
 
-## 6️⃣ Feature Engineering & Data Processing
-
-- [ ] Feature scaling (standardization vs normalization)
-- [ ] Handling missing values
-- [ ] Categorical encoding (one-hot, target encoding)
-- [ ] Feature interactions
-- [ ] Dealing with imbalanced data
-- [ ] Train–test distribution mismatch
-
----
-
-## 7️⃣ Classical ML Theory
-
-- [ ] Maximum Likelihood Estimation (MLE)
-- [ ] Maximum A Posteriori（MAE）
+## 6️⃣ Classical ML Theory
+ 
+- [☑️] Maximum Likelihood Estimation (MLE)
+- [☑️] Maximum A Posteriori（MAE）
 - [☑️] Backward vs Forward
 
 -- 
 
-## 8️⃣ Tree Model
+## 7️⃣ Tree Model
 
 - [☑️] Bagging
 - [☑️] Boosting
