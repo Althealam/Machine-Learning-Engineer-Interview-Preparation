@@ -5,11 +5,11 @@
 
 ## 1️⃣ Transformer & Attention: Core Mechanics
 
-- [ ] Eself-attention end-to-end
-- [ ] Distinguish **self-attention** vs **cross-attention**
-- [ ] Multi-head Attention
-- [ ] Ppositional encoding
-- [ ] Describe attention compute/memory complexity and why it becomes a bottleneck
+- [☑️] Eself-attention end-to-end
+- [☑️] Distinguish **self-attention** vs **cross-attention**
+- [☑️] Multi-head Attention
+- [☑️] Positional encoding
+- [☑️] Time complexity of transformer
 
 ---
 
@@ -19,3 +19,13 @@
 - [ ] Causal masking vs bidirectional attention (why it matters)
 - [ ] KV-cache: what it stores and how it speeds up decoding
 - [ ] Sliding-window / sparse attention (why & when)
+
+
+---
+
+## 3️⃣ Layer Normalization & Batch Normalization
+
+- [ ] Layer Normalization
+- [ ] Batch Normalization
+- [ ] LN vs. BN
+
