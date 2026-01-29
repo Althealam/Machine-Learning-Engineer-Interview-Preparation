@@ -17,7 +17,6 @@
 
 - [☑️] Encoder-only vs decoder-only vs encoder–decoder (when to use each)
 - [☑️] Causal masking vs bidirectional attention (why it matters)
-- [ ] KV-cache: what it stores and how it speeds up decoding
 
 ---
 
@@ -30,7 +29,7 @@
 
 ---
 
-## 4️⃣ Other Attention
+## 4️⃣ Advanced Attention Variants
 
 - [] Sparse Attention
 - [] Sliding window Attention
