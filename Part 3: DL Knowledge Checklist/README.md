@@ -15,17 +15,27 @@
 
 ## 2️⃣ Transformer Variants & Design Choices
 
-- [ ] Encoder-only vs decoder-only vs encoder–decoder (when to use each)
-- [ ] Causal masking vs bidirectional attention (why it matters)
+- [☑️] Encoder-only vs decoder-only vs encoder–decoder (when to use each)
+- [☑️] Causal masking vs bidirectional attention (why it matters)
 - [ ] KV-cache: what it stores and how it speeds up decoding
-- [ ] Sliding-window / sparse attention (why & when)
-
 
 ---
 
 ## 3️⃣ Layer Normalization & Batch Normalization
 
-- [ ] Layer Normalization
-- [ ] Batch Normalization
-- [ ] LN vs. BN
+- [☑️] Layer Normalization
+- [☑️] Batch Normalization
+- [☑️] LN vs. BN
+
+
+---
+
+## 4️⃣ Other Attention
+
+- [] Sparse Attention
+- [] Sliding window Attention
+- [] FlashAttention
+- [] Multi-query/Grouped Attention
+- [] Relative positional attention
+- [] Rotary (RoPE) Attention
 
