@@ -31,10 +31,9 @@
 
 ## 4️⃣ Advanced Attention Variants
 
-- [] Sparse Attention
-- [] Sliding window Attention
-- [] FlashAttention
-- [] Multi-query/Grouped Attention
-- [] Relative positional attention
+- [☑️] Sparse Attention: Sliding window Attention, Dilated Attention, Block Sparse Attention
+- [☑️] FlashAttention
+- [☑️] Multi-query/Grouped Attention
+- [☑️] Relative positional attention
 - [] Rotary (RoPE) Attention
 
