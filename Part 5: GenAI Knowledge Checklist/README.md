@@ -1,6 +1,5 @@
 # ✅ GenAI Knowledge Checklist
 
-
 ---
 
 ## 1️⃣ Pretraining
