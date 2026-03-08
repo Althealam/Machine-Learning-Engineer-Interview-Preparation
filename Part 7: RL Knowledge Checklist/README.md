@@ -4,31 +4,30 @@
 
 ## 1️⃣ RL Fundamentals
 
-- [ ] Markov Decision Process (MDP): (S, A, P, R, γ)
-- [ ] State-value vs Action-value: V(s) vs Q(s,a)
-- [ ] Bellman Expectation Equation
-- [ ] Bellman Optimality Equation
-- [ ] Policy vs Value Function vs Model
+- [☑️] Markov Decision Process (MDP): (S, A, P, R, γ)
+- [☑️] State-value vs Action-value: V(s) vs Q(s,a)
+- [☑️] Bellman Expectation Equation
+- [☑️] Bellman Optimality Equation
+- [☑️] Policy vs Value Function vs Model
 
 ---
 
 ## 2️⃣ Core RL Algorithms
 
-- [ ] Dynamic Programming: Policy Iteration vs Value Iteration
-- [ ] Monte Carlo methods
-- [ ] Temporal Difference (TD) Learning
-- [ ] Q-learning vs SARSA
-- [ ] Exploration vs Exploitation (ε-greedy)
-
+- [☑️] Dynamic Programming: Policy Iteration vs Value Iteration
+- [☑️] Monte Carlo methods
+- [☑️] Temporal Difference (TD) Learning
+- [☑️] Q-learning vs SARSA
+- [☑️] off policy vs on policy
 ---
 
 ## 3️⃣ Deep Reinforcement Learning
 
-- [ ] Deep Q-Network (DQN)
-- [ ] Experience Replay
-- [ ] Target Network
-- [ ] Policy Gradient (REINFORCE)
-- [ ] Actor–Critic methods
+- [☑️] Deep Q-Network (DQN)
+- [☑️] Experience Replay
+- [☑️] Target Network
+- [☑️] Policy Gradient (REINFORCE)
+- [☑️] Actor–Critic methods
 
 ---
 
