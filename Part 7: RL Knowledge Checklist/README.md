@@ -33,8 +33,8 @@
 
 ## 4️⃣ Modern RL (LLM / Advanced RL)
 
-- [ ] PPO (Proximal Policy Optimization)
-- [ ] Advantage Function A(s,a)
-- [ ] Generalized Advantage Estimation (GAE)
-- [ ] RLHF (Reinforcement Learning from Human Feedback)
-- [ ] Reward Modeling
+- [☑️] PPO (Proximal Policy Optimization)
+- [☑️] Advantage Function A(s,a)
+- [☑️] Generalized Advantage Estimation (GAE)
+- [☑️] RLHF (Reinforcement Learning from Human Feedback)
+- [☑️] Reward Modeling
