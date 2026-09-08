@@ -1,5 +1,5 @@
 y_true = [0, 1, 1, 0]
-y_score = [0.1, 0.8, 0.7, 0.3]
+y_score = [0.1, 0.2, 0.7, 0.3]
 
 # 方法一：暴力法
 # AUC = (correct+0.5*equal)/pos*neg（这个公式可以通过ROC曲线下面积的积分推导得到）
@@ -25,18 +25,20 @@ def auc1(y_true, y_score):
             neg_scores.append(y_score[i])
     
     total = 0
-    numerator_large = 0
-    numerator_equal = 0
-    for pos in pos_scores:
-        for neg in neg_scores:
-            total+=1
-            if pos>neg:
-                numerator_large+=1
-            elif pos==neg:
-                numerator_equal+=1
-    return numerator_large/total + 0.5*numerator_equal/total
+
+    # numerator_large = 0
+    # numerator_equal = 0
+    # for pos in pos_scores:
+    #     for neg in neg_scores:
+    #         total+=1
+    #         if pos>neg:
+    #             numerator_large+=1
+    #         elif pos==neg:
+    #             numerator_equal+=1
+    # return numerator_large/total + 0.5*numerator_equal/total
 
     # # 正负样本两两比较
+    # correct = 0
     # for pos in pos_scores:
     #     for neg in neg_scores:
     #         total+=1
@@ -47,6 +49,7 @@ def auc1(y_true, y_score):
     # if total==0:
     #     return 0
     # return correct/total
+# print(auc1(y_true, y_score))
 
 
 # 方法二：使用正样本的排名去统计超过多少负样本来替换auc的分子的计算公式为rank_sum-P(P+1)/2（正确排序的正负样本对数）
@@ -74,3 +77,5 @@ def auc2(y_true, y_score):
     # rank_sum-pos*(pos+1)/2相当于所有正样本超过了多少个负样本
     auc = (rank_sum-pos*(pos+1)/2)/total
     return auc
+
+print(auc2(y_true, y_score))
