@@ -121,7 +121,7 @@ def auc2(y_true, y_pred):
                 group_pos+=1
             else:  # 该分数下的负样本数量
                 group_neg+=1
-
+            j+=1
         # 正样本和负样本分数相同的配对数为group_pos*group_neg
         equal_cnt+= group_pos*group_neg
         # 从当前遍历到的样本开始判断
