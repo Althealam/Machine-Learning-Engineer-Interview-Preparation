@@ -18,7 +18,7 @@ class Attention(nn.Module):
         X: (sequence_length, hidden_dimension) (n, d)
         """
         # 1. Q/K/V
-        Q = self.Wq(X)
+        Q = self.Wq(X) # (B, l, dk)
         K = self.Wk(X)
         V = self.Wv(X)
 
